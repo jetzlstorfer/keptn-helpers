@@ -1,1 +1,2 @@
 bridge/expose-bridge/manifests/gen/bridge.yaml
+dynatrace/creds_dt.json
