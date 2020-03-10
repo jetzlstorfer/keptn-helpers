@@ -23,10 +23,10 @@ echo "============================================================="
 keptn configure monitoring dynatrace
 
 echo "============================================================="
-echo "waiting for Dynatrace OneAgent to be deployed"
+echo "waiting 90 seconds for Dynatrace OneAgent to be deployed"
 echo "============================================================="
 
-sleep 60
+sleep 90
 kubectl get pods -n dynatrace
 
 
